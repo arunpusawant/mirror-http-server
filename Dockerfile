@@ -4,4 +4,4 @@ WORKDIR /app
 COPY . .
 RUN npm install --loglevel=error --prod
 EXPOSE 80
-CMD [ "npm", "start" ]
+CMD [ "bash", "start.sh" ]
